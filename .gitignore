@@ -1,0 +1,12 @@
+# Ignorar dependências e builds
+node_modules/
+.expo/
+target/
+.mvn/
+
+# IGNORAR O JDK (O culpado do erro)
+**/oracleJdk-25/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
